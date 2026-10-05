@@ -1,0 +1,7 @@
+PASS: Xcode object IDs are unique and all references resolve.
+PASS: All Swift app source files are included in the project.
+PASS: Info.plist, privacy manifest and shared scheme are valid XML.
+PASS: Actual Swift SQLite schema and index execute successfully.
+PASS: 80,000 newest records retained after trimming and another insert.
+PASS: Historical query retains the newest 8,000 records.
+NOT RUN: Xcode iOS compilation, XCTest and iPhone device validation (Windows has no iOS SDK).
